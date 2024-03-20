@@ -1,6 +1,7 @@
 # Ex. No: 6 PL/SQL program to perform addition and subtraction of two number 
 ### DATE: 
-### AIM: To create PL/SQL program to perform addition and subtraction of two number.
+### AIM:
+To create PL/SQL program to perform addition and subtraction of two number.
 
 ### Steps:
 1. Declare the variable a, b and necessary variables in Declare section.
