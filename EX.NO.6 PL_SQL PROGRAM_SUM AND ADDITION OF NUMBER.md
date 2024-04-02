@@ -12,6 +12,10 @@ To create PL/SQL program to perform addition and subtraction of two number.
 
 ### Program:
 ```
+NAME:DHANUMALYA.D
+REGISTER NUMBER:212222230030
+```
+```
 DECLARE
  a NUMBER := 100;
  b NUMBER := 50;
