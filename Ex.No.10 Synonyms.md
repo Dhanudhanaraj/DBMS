@@ -33,6 +33,7 @@ VALUES (2, 'Dolly', 60000.00);
 ```
 
 ### OUTPUT:
+![Screenshot 2024-04-02 142931](https://github.com/Dhanudhanaraj/DBMS/assets/119218812/a3baab08-f624-4690-b739-87070a47b9e6)
 
 ### 2) Create a synonym S1 for EMPLOYEE  table.
 
@@ -41,6 +42,7 @@ VALUES (2, 'Dolly', 60000.00);
 CREATE SYNONYM S1 FOR EMPLOYEE;
 ```
 ### OUTPUT:
+![Screenshot 2024-04-02 142949](https://github.com/Dhanudhanaraj/DBMS/assets/119218812/4da68d32-b801-448b-821a-6d33faea53f8)
 
 
 ### 3) Display the EMPLOYEE  table using synonym S1.
@@ -51,6 +53,7 @@ SELECT * FROM S1;
 ```
 
 ### OUTPUT:
+![Screenshot 2024-04-02 143009](https://github.com/Dhanudhanaraj/DBMS/assets/119218812/963c4290-5e9f-449b-b356-44b806b8cd8b)
 
 
 ### 4) Drop the synonym.
@@ -61,6 +64,7 @@ DROP SYNONYM S1;
 ```
 
 ### OUTPUT:
+![Screenshot 2024-04-02 143028](https://github.com/Dhanudhanaraj/DBMS/assets/119218812/4a0abc5f-bcd9-4f06-895f-a4e86c47cb91)
 
 
 
@@ -77,6 +81,7 @@ CREATE SEQUENCE S2;
 ```
 
 ### OUTPUT:
+![Screenshot 2024-04-02 143046](https://github.com/Dhanudhanaraj/DBMS/assets/119218812/e7b66211-5bf4-4293-8d00-53f01a69d27c)
 
 
 ### 6) insert the data into supplier table use sequence.
@@ -91,6 +96,8 @@ VALUES (S2.NEXTVAL, 'CD Suppliers');
 ```
 
 ### OUTPUT:
+![Screenshot 2024-04-02 143108](https://github.com/Dhanudhanaraj/DBMS/assets/119218812/a592143c-d033-4385-ba95-90edc540ad76)
+
 ### 7) Drop the sequence
 
 ### SQL QUERY: 
@@ -99,6 +106,7 @@ DROP SEQUENCE S2;
 ```
 
 ### OUTPUT:
+![Screenshot 2024-04-02 143910](https://github.com/Dhanudhanaraj/DBMS/assets/119218812/d9df85ea-cf61-4cfe-adb3-90a65529a68e)
 
 ## RESULT :
 Thus the sequence and synonym created and used in SQL.
