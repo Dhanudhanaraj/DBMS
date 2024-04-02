@@ -1,7 +1,7 @@
 # EXP NO 10: SYNONYMS AND ASSERTIONS IN SQL 
 ### DATE: 
 ## AIM:
-To create a student database and create a synonym and assertions.
+To create a employee database and create a synonym and assertions.
 
 ## THEORY
 ## SYNONYM
