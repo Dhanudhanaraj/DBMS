@@ -5,14 +5,14 @@ To create a student database and create a synonym and assertions.
 
 ## THEORY
 ## SYNONYM
-<div align="justify">
+
 A SYNONYM provides another name for database object, referred to as original object, that may exist on a local or another server.
-</div>
-## ASSERTIONS
-<div align="justify">
+
+### ASSERTIONS
+
 * An assertion is a piece of SQL which makes sure a condition is satisfied, else or it stops the action being taken on a database.
 * An assertion is a constraint that might be dependent upon multiple rows of multiple tables.
-</div>
+
 
 ## Query:
 ### 1) Create a table EMPLOYEE and perform insertion of two rows.
