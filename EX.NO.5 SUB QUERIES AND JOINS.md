@@ -72,7 +72,6 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 ### QUERY:
 ```
 SELECT ENAME FROM EMP WHERE SAL > (SELECT SAL FROM EMP WHERE EMPNO = 7566);
-
 ```
 
 ### OUTPUT:
@@ -105,7 +104,6 @@ SELECT ENAME, JOB FROM EMP WHERE DEPTNO = 10 AND JOB IN (SELECT JOB FROM EMP WHE
 ```
 CREATE VIEW empv5 AS SELECT empno, ename, job FROM EMP WHERE deptno = 10;
 SELECT ename FROM empv5;
-
 ```
 
 ### OUTPUT:
@@ -117,7 +115,6 @@ SELECT ename FROM empv5;
 ```
 CREATE VIEW empv30 AS SELECT empno AS "Employee Number", ename AS "Employee Name", sal AS "Salary" FROM EMP WHERE deptno = 30;
 SELECT * FROM empv30;
-
 ```
 
 ### OUTPUT:
@@ -129,7 +126,6 @@ SELECT * FROM empv30;
 ```
 UPDATE emp SET sal = sal * 1.1 WHERE job = 'CLERK';
 SELECT empno, ename, job, sal FROM emp WHERE job = 'CLERK';
-
 ```
 
 ### OUTPUT:
@@ -188,10 +184,8 @@ SELECT c.cust_name AS Customer_Name, c.city AS Customer_City, s.name AS Salesman
 
 ### QUERY:
 ```
-
 SELECT * FROM Salesman1
 NATURAL JOIN Customer1;
-
 ```
 
 ### OUTPUT:
