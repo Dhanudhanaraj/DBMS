@@ -1,4 +1,4 @@
-# EX.NO.6 SubQueries, Views and Joins 
+# EX.NO.4 SubQueries, Views and Joins 
 ### DATE:
 ## AIM
 To use SubQueries, Views and Joins in SQL 
