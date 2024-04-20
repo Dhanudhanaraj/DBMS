@@ -1,6 +1,7 @@
 # Ex. No: 8 PL/SQL program using Cursor 
 ### DATE: 
-### AIM: To create PL/SQL program to display the customer table 
+### AIM: 
+To create PL/SQL program to display the customer table 
 
 ### Steps:
 1. Declare the variable  in Declare section.
