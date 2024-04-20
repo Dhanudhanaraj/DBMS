@@ -1,4 +1,4 @@
-# Ex. No: 6 PL/SQL program to perform addition and subtraction of two number 
+# Ex. No: 5 PL/SQL program to perform addition and subtraction of two number 
 ### DATE: 
 ### AIM:
 To create PL/SQL program to perform addition and subtraction of two number.
